@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "THAngular01"
+    }
+  },
+  "defaultProject": "THAngular01",
+  "cli": {
+    "analytics": "814d561d-3df7-4c73-803e-810b51db73a7"
+  }
 }

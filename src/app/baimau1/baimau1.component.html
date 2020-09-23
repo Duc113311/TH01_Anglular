@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Bài mẫu 1</h2>
+  <div class="row">
+      <div class="col-sm-4">
+          <span>Nhập n: </span>
+      </div>
+      <div class="col-sm-4">
+          <input type="text"  [(ngModel)]="n" class="form-control">
+      </div>
+      <button type="button" class="btn btn-succes" (click)="tinh()">Tính</button>
+  </div>
+  <span>Kết quả: {{tong}}</span>
+</div>
